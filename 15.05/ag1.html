@@ -35,11 +35,9 @@
         <span class="glyphicon glyphicon-star" ng-if="show favorite">
         </span> Đôi mắt có lửa <span class="badge">Nguyễn Hùng Sơn</span>
     </li>
-        
     </ul>
     <select class="form-control pull-right" ng-model="main.order"
             ng-options="order as order.title for order in main.orders"></select>
-            
             <div class="clearfix"></div>
             <h3>Add a new book</h3>
             <form name="main.addForm" class="form" ng-submit="main.addShow()">
